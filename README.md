@@ -2,11 +2,8 @@
 Set an image from unsplash.com as your background, simple python script.
 
 ### Requirments
-Linux with Gnome Desktop Enviroment
+Linux with Gnome Desktop Enviroment - (Submit PR with other Desktop Enviroment's)
 
-(Submit PR with other Desktop Enviroment's)
-
-### Prerequisites
 [Unsplash API Key](https://unsplash.com/developers)
 
 ### Install

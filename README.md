@@ -1,6 +1,8 @@
 # Unsplash Wallpaper
 Set an image from unsplash.com as your background, simple python script.
 
+![Example image](https://raw.githubusercontent.com/andrewkliskey/unsplash-wallpaper/main/preview.png)
+
 ### Requirments
 Linux with Gnome Desktop Enviroment - (Submit PR with other Desktop Enviroment's)
 

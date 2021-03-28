@@ -18,9 +18,10 @@ def imageUrl(queryurl, desktop, authorization):
         with open("unspash.jpg",'wb+') as f:
             shutil.copyfileobj(image.raw, f)
             
-        print('Image sucessfully Downloaded: unspash.jpg')
-
         imageFullPath = os.path.abspath("unspash.jpg")
+        imageSize=round(os.path.getsize(imageFullPath)/1000000,2)
+        print('Path: ' + imageFullPath)
+        print('Size: ' + str(imageSize) + 'MB')
 
         if desktop == "gnome":
             try:
